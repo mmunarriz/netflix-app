@@ -1,0 +1,124 @@
+.footer {
+    bottom: 0;
+    height: 12vh;
+    width: 100vw;
+    background-color: #111;
+    border-top: 1px solid white;
+  }
+
+  footer{
+    height: 100%;
+  }
+
+  footer > ul{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+  }
+
+  footer > ul div{
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer > ul li a{
+    color: white;
+    font-size: 2rem;
+    margin:2rem;
+    transition: all 0.4s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+  }
+
+  footer > ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .integrantes p{
+    font-size: 1rem;
+    margin: 1rem;
+  }
+
+  .integrantes{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0px;
+    color: white;
+    font-size: 2rem;
+    margin:2rem;
+    transition: all 0.4s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+  }
+
+  #contactanos{
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    background-color: rgba(240, 248, 255, 0.521);
+    transition: all 0.4s;
+  }
+
+  #contactanos:hover{
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow:  0px 0px 10px rgb(255, 21, 21);
+  }
+
+  footer > ul > div li a:hover, .integrantes:hover{
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 10px rgba(134, 134, 134, 0.648);
+  }
+
+  #modal-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 90vh;
+  }
+
+  #modal-body > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+
+  #modal-body > div p, a{
+    border-bottom: 2px solid black;
+    margin: 8px;
+  }
+
+  #modal-body > div:last-child{
+    align-items: flex-end;
+  }
+
+  @media (max-width:587px) {
+    .integrantes p{
+      display: none;
+    }
+
+    #contactanos{
+      padding: 0.3rem 0.5rem;
+    }
+  }
